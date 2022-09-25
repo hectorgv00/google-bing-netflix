@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.blue {
+    color: rgb(0, 145, 255);
+}
+
+.red {
+    color: rgb(255, 52, 52);
+}
+
+.yellow {
+    color: rgb(255, 208, 0);
+}
+
+.green {
+    color: rgb(0, 198, 0);
+}
+
+span {
+    margin-left: -1%;
+    margin-right: -1%;
+    padding: 0;
+}
+
+#header {
+    background-color: #FFF;
+    height: 10vh;
+    display: flex;
+}
+
+.head-c {
+    width: 50%;
+}
+
+#buttonMenu {
+    border: none;
+    border-radius: 50%;
+    background-color: #FFF;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#buttonMenu:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+#buttonIniciarSesion {
+    background-color: rgb(66, 122, 243);
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    width: 20%;
+    height: 4vh;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+#buttonIniciarSesion:hover{
+    cursor: pointer;
+    background-color:rgb(45, 85, 172); ;
+}
+
+.flexAlignCenter {
+    display: flex;
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+#headerIzda {
+    justify-content: flex-start;
+}
+
+#headerDcha {
+    justify-content: flex-end;
+}
+
+#headerDcha a{
+    margin-right: 3%;
+}
+#headerIzda a {
+    margin-left: 3%;
+}
+
+h1{
+    font-family: 'Reem Kufi Ink', sans-serif;
+
+}
+
+/* --------Main----------- */
+
+#main {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+#mainBloque {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainBloque-LetrasGoogle {
+    height: 25%;
+    font-size: 3.5em;
+    padding-top: 10%;
+    z-index: 2;
+}
+
+#mainBloque-inputGoogle {
+    height: 20%;
+
+}
+
+#mainInput {
+    width: 35vw;
+    border-radius: 1rem;
+    height: 5vh;
+    border: 1px solid  rgb(242, 242, 242);
+    text-indent: 5%;
+}
+
+#mainBloque-botonesGoogle {
+    height: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    width: 33%;
+
+
+}
+
+.botones-bajo-input {
+    width: 40%;
+    margin-right: 5%;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:  rgb(242, 242, 242);
+}
+
+.botones-bajo-input:hover{
+    cursor: pointer;
+    background-color:  rgb(214, 214, 214);
+}
+
+#mainBloque-enlcesGoogle {
+    height: 100%;
+}
+
+
+
+/* Footer */
+
+#footer {
+    background-color: rgb(242, 242, 242);
+    height: 15vh;
+    padding-top: 1%;
+
+}
+
+#footer p,
+a {
+    font-size: small;
+}
+
+#footer > p {
+    margin-left: 1%;
+
+}
+
+#bloqueFooter {
+    display: flex;
+    height: 50%;
+}
+
+#bloqueFooter-izda {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+#bloqueFooter-izda p {
+    margin-left: 5%;
+}
+
+#bloqueFooter-izda p:first-child {
+    margin-left: 0;
+}
+
+#bloqueFooter-centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+#bloqueFooter-centro > img {
+    height: 15px;
+    width: 15px;
+    margin-right: 1%;
+}
+
+#bloqueFooter-dcha {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    padding-left: 1%;
+    padding-top: 1%;
+    justify-content: flex-end;
+}
+
+#bloqueFooter-dcha p {
+    margin-right: 5%;
+}

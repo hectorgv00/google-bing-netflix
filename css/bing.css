@@ -1,0 +1,221 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#all {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/238870.jpg);
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+}
+
+#header-logoMicrosoft {
+  height: 100%;
+  width: 20vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+}
+
+#icono-windows-11 {
+  height: 50px;
+  width: 50px;
+}
+
+#tres-enlaces {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 20%;
+}
+
+#tres-enlaces > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 10%;
+  font-size: small;
+}
+
+#resto-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50vw;
+}
+
+#resto-header > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-right: 4%;
+  font-size: small;
+}
+
+.div-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+}
+
+.div-boton > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: small;
+  margin-right: 10px;
+}
+
+.boton-div-boton {
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+}
+
+.sinFondo {
+  background: none;
+  color: #fff;
+}
+
+/* --------------------Main----------------- */
+
+#main {
+  height: 72vh;
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+
+#divInput{
+  width: 35vw;
+  border-radius: 2rem;
+  border: none;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+
+}
+
+#mainInputBing {
+  border-radius: 2rem;
+  border: none;
+  width: 30vw;
+  height: 5vh;
+}
+
+/* ------------Footer----------------- */
+
+#footer {
+  height: 20vh;
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+}
+
+#footerReducido {
+  width: 90vw;
+}
+
+#botones-arriba-footer {
+  height: 5vh;
+  display: flex;
+}
+
+#botones-arriba-footer-izquierda {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+#botones-arriba-footer-derecha {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  padding-right: 5%;
+  /* background-color: rgb(30, 210, 111); */
+}
+
+.botones-footer {
+  width: 2vw;
+  height: 4vh;
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+}
+
+.margin-derecha {
+  margin-right: 1%;
+}
+
+#noticias-bajo-footer {
+  width: 100%;
+  height: 15vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-noticias-bajo-footer {
+  width: 10vw;
+  height: 4vh;
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* .noticia-entera{
+} */
+
+.bajo-noticia {
+  width: 10vw;
+  height: 11vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.not1 {
+  background-image: url(https://imagenes.elpais.com/resizer/G-RZsLNgdNO4T4ZBS3qf1KXmZN4=/828x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/B5RJYJ6GMJGOFFEMILPLB2TEZQ.jpg);
+}
+
+.not2 {
+  background-image: url(https://imagenes.elpais.com/resizer/gETjqGqqlTpgoUBx9VwNHs49O_0=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/ARHUVI4IJ5B47PFGB7GAKYVNRE.jpg);
+}
+
+.not3 {
+  background-image: url(https://imagenes.elpais.com/resizer/pei-IdiPPXhJWq2q-1NqpyCinrw=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/A7BJFUO7TVHEHHKPEZ7RWR7QYQ);
+}
+
+.not4 {
+  background-image: url(https://imagenes.elpais.com/resizer/XpJasxiKggW2nIXrJDev6oOcQzo=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/5IZ5AABWIFHVVLRVV3U52RUJCA.jpg);
+}
+
+.not5 {
+  background-image: url(https://imagenes.elpais.com/resizer/EwVtSuLxSDhG0hsAOZD2-1wSB9g=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/2FQ7IX4SWRFCXH2YBD5RARTFVA.jpg);
+}
+
+.not6 {
+  background-image: url(https://imagenes.elpais.com/resizer/UUA76MY-i8EdAayEojOv-EPGiTg=/828x466/cloudfront-eu-central-1.images.arcpublishing.com/prisa/RB3PTE7DINGCNPQNZMVJCWF5GE.JPG);
+}
